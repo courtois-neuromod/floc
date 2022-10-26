@@ -1,7 +1,7 @@
 import os, glob
 import numpy as np
 import pandas as pd
-
+import argparse
 
 '''
 Script updates events.tsv files to include the image show for each trial,
