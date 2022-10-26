@@ -148,7 +148,7 @@ def update_event(source_list, bids_path, out_path):
             # I tried using first and last trial categories, but there are problems w that approach
             on_first = df_merged['onset'][0]
             on_last = df_merged['onset'][df_merged.shape[0]-1]
-            ev_list = glob.glob(os.path.join(bids_path, sub, ses, '*_task-fLoc_run-*_events.tsv'))
+            ev_list = glob.glob(os.path.join(bids_path, sub, ses, 'func', '*_task-fLoc_run-*_events.tsv'))
             assert len(ev_list) == 2
 
             out_names = []
