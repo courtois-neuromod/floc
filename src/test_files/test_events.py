@@ -45,11 +45,11 @@ def test_eventfiles(ev_path):
     two run files per session
     First run is default  stimuli:
         bodies = body, characters = word, faces = adult, objects = car, places = house, scrambled = scrambled
-    First run is alternate stimuli:
+    Second run is alternate stimuli:
         bodies = limb, characters = word, faces = adult, objects = instrument, places = corridor, scrambled = scrambled
     # see https://github.com/courtois-neuromod/floc.stimuli/blob/4415763fc728918c856a174be27fe4ea69abdb6c/config.json
     '''
-    ev_list = sorted(glob.glob(os.path.join(ev_path, 'sub-0*/ses-0*/sub-0*_ses-00*_task-fLoc_run-0*_events.tsv')))
+    ev_list = sorted(glob.glob(os.path.join(ev_path, 'sub-0*/ses-0*/func/sub-0*_ses-00*_task-fLoc_run-0*_events.tsv')))
 
     for ev in ev_list:
         test_ev(ev)
