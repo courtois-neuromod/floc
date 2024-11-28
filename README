@@ -1,13 +1,13 @@
 <!-- vim: syntax=Markdown -->
-# Courtois-NeuroMod: [floc subdataset](https://github.com/courtois-neuromod/xxxxx)
+# Courtois-NeuroMod: [floc subdataset](https://github.com/courtois-neuromod/fLoc)
 
 The [Courtois project on Neural Modelling (Courtois NeuroMod)](https://www.cneuromod.ca/) aims at training artificial neural networks using extensive experimental data on individual human brain activity and behaviour.
 
-Participants performed a functional localizer task while functional data being acquired in the MRI scanner. A extensive description can be found [here](https://docs.cneuromod.ca/en/latest/DATASETS.html#xxxx).
+Participants performed a visual functional localizer task while functional data being acquired in the MRI scanner. A extensive description can be found [here](https://docs.cneuromod.ca/en/latest/DATASETS.html#fLoc).
 
 This subdataset is organized following the [brain imaging data structure (BIDS)](https://bids.neuroimaging.io/) (including extensions in development) and contains:
 - [x] [raw neuroimaging data](https://docs.cneuromod.ca/en/latest/MRI.html#functional-sequences)
-- [ ] behavioral variables in event files
+- [x] behavioral variables in event files
 - [ ] physiological data
   - [ ] ECG
   - [ ] pulse (photoplethysmography)
