@@ -2,4 +2,4 @@
 	path = stimuli
 	url = git@github.com:courtois-neuromod/floc.stimuli.git
 	datalad-id = e730eb7b-0a99-453c-a861-2e21d6c72062
-	datalad-url = git@github.com:courtois-neuromod/floc.stimuli.git
+	datalad-url = https://github.co/courtois-neuromod/floc.stimuli.git
