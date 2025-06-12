@@ -33,8 +33,8 @@
   "InstitutionName": "IUGM",
   "InstitutionalDepartmentName": "Department",
   "IntendedFor": [
-    "ses-001/func/sub-03_ses-001_task-flocdev_run-01_part-mag_bold.nii.gz",
-    "ses-001/func/sub-03_ses-001_task-flocdev_run-02_part-mag_bold.nii.gz"
+    "ses-001/func/sub-03_ses-001_task-fLoc_run-01_part-mag_bold.nii.gz",
+    "ses-001/func/sub-03_ses-001_task-fLoc_run-02_part-mag_bold.nii.gz"
 ],
   "MRAcquisitionType": "2D",
   "MagneticFieldStrength": 3,
